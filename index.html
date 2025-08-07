@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>May Klase Ugma?</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 60px;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 30px;
+        }
+
+        button {
+            padding: 15px 40px;
+            font-size: 1.2em;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:first-child {
+            background-color: #4267B2; /* Facebook Blue */
+            color: white;
+        }
+
+        button:first-child:hover {
+            background-color: #365899;
+        }
+
+        button:last-child {
+            background-color: #DB4437; /* Google Red */
+            color: white;
+        }
+
+        button:last-child:hover {
+            background-color: #c23321;
+        }
+    </style>
+</head>
+<body>
+    <h1>May klase Ugma?</h1>
+    <div class="button-container">
+        <button onclick="window.location.href='https://www.facebook.com/helbertbernades.pagaura'">Yes</button>
+        <button onclick="window.location.href='https://mail.google.com/mail/u/0/'">No</button>
+    </div>
+</body>
+</html>
